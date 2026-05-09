@@ -48,11 +48,21 @@ Controls what each user is allowed to do after logging in. For example, in a uni
 - **Database:** MongoDB
 
 ```
+# Project Structure
+
+```text
 drone-delivery-system/
-├── models/
-├── routes/
-├── controllers/
-├── middleware/
-├── config/
-└── server.js
+│
+├── backend/
+│   ├── src/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── controllers/
+│   │   ├── middleware/
+│   │   └── config/
+│   │
+│   ├── app.js
+│   ├── server.js
+│   ├── README.md
+│   └── .gitignore
 ```
