@@ -47,10 +47,8 @@ Controls what each user is allowed to do after logging in. For example, in a uni
 - **Framework:** Express.js
 - **Database:** MongoDB
 
-```
 # Project Structure
-
-```text
+```
 drone-delivery-system/
 │
 ├── backend/
